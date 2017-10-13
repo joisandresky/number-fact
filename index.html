@@ -38,7 +38,7 @@
 
         function fetchFact(){
             let number = angka.value
-            fetch('http://numbersapi.com/'+number)
+            fetch('https://numbersapi.com/'+number)
                 .then(res => res.text())
                 .then(data => {
                     if(number != ''){
